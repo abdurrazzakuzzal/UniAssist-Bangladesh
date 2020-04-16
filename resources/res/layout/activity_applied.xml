@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="50dp" android:textStyle="bold" android:id="@+id/textView12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3." android:layout_x="12dp" android:layout_y="428dp"/>
+    <TextView android:textSize="50dp" android:textStyle="bold" android:id="@+id/textView11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2." android:layout_x="11dp" android:layout_y="292dp"/>
+    <include android:id="@+id/actionbar" layout="@layout/actionbar"/>
+    <TextView android:textSize="30dp" android:textStyle="bold" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Applied Universities: " android:layout_x="4dp" android:layout_y="101dp" android:layout_centerInParent="true"/>
+    <TextView android:textSize="30dp" android:textStyle="bold" android:id="@+id/one" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="70dp" android:text="Applied Universities: " android:layout_x="0dp" android:layout_y="224dp" android:layout_centerInParent="true"/>
+    <TextView android:textSize="30dp" android:textStyle="bold" android:id="@+id/two" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="76dp" android:text="Applied Universities: " android:layout_x="0dp" android:layout_y="359dp" android:layout_centerInParent="true"/>
+    <TextView android:textSize="30dp" android:textStyle="bold" android:id="@+id/three" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="78dp" android:text="Applied Universities: " android:layout_x="1dp" android:layout_y="485dp" android:layout_centerInParent="true"/>
+    <TextView android:textSize="50dp" android:textStyle="bold" android:id="@+id/textView10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1." android:layout_x="9dp" android:layout_y="157dp"/>
+</android.widget.AbsoluteLayout>

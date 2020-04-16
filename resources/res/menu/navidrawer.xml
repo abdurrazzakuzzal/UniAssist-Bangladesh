@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/home" android:title="Home" app:showAsAction="never"/>
+    <item android:id="@+id/universities" android:title="Universities" app:showAsAction="never"/>
+    <item android:id="@+id/international" android:title="International" app:showAsAction="never"/>
+    <item android:id="@+id/about" android:title="About Us" app:showAsAction="never"/>
+</menu>

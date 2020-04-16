@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/actionbar" layout="@layout/actionbar"/>
+    <ImageView android:id="@+id/imageView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="0dp" android:layout_y="41dp" app:srcCompat="@drawable/international"/>
+    <TextView android:textSize="25dp" android:textStyle="bold" android:id="@+id/k" android:layout_width="287dp" android:layout_height="54dp" android:text="International Students: " android:layout_x="0dp" android:layout_y="98dp" android:layout_weight="5" android:textAlignment="center"/>
+    <TextView android:textSize="25dp" android:textStyle="bold" android:id="@+id/u" android:layout_width="348dp" android:layout_height="104dp" android:text="international applicants are welcome to apply for admission" android:layout_x="0dp" android:layout_y="388dp" android:layout_weight="5" android:textAlignment="center"/>
+</android.widget.AbsoluteLayout>

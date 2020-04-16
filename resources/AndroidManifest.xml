@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.aru.uzzal.uniassist">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="26"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/logo" android:debuggable="true" android:allowBackup="true" android:supportsRtl="true" android:roundIcon="@drawable/logo">android:theme=@style/Theme.AppCompat.Light.NoActionBar
+        <activity android:name="com.aru.uzzal.uniassist.flashscreen" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.aru.uzzal.uniassist.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_login" android:name="com.aru.uzzal.uniassist.LoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.aru.uzzal.uniassist.InfoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.aru.uzzal.uniassist.universitylistActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.aru.uzzal.uniassist.internationalActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.aru.uzzal.uniassist.uniprofileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.aru.uzzal.uniassist.aboutActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.aru.uzzal.uniassist.signupActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.aru.uzzal.uniassist.SigninActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.aru.uzzal.uniassist.ProfileActivity" android:screenOrientation="portrait" android:parentActivityName="com.aru.uzzal.uniassist.SigninActivity"/>
+        <activity android:name="com.aru.uzzal.uniassist.ApplyActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.aru.uzzal.uniassist.AppliedActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.aru.uzzal.uniassist.EditprofileActivity" android:screenOrientation="portrait"/>
+        <meta-data android:name="android.support.VERSION" android:value="26.1.0"/>
+        <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT"/>
+    </application>
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <AbsoluteLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/actionbar" layout="@layout/actionbar"/>
+        <ListView android:id="@+id/listid" android:layout_width="match_parent" android:layout_height="800dp" android:layout_marginTop="75dp" android:listSelector="@android:color/holo_orange_dark" android:layout_x="0dp" android:layout_y="133dp"/>
+        <TextView android:textSize="23dp" android:textStyle="bold" android:id="@+id/textView2" android:layout_width="287dp" android:layout_height="46dp" android:text="University in Bangladesh: " android:layout_x="8dp" android:layout_y="87dp"/>
+    </AbsoluteLayout>
+</ScrollView>

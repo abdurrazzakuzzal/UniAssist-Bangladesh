@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="universities">
+        <item>Ahsanullah University of Science and Technology</item>
+        <item>American International University-Bangladesh</item>
+        <item>Bangladesh University of Business and Technology</item>
+        <item>Brac University</item>
+        <item>Daffodil International University</item>
+        <item>East West University</item>
+        <item>Green University of Bangladesh</item>
+        <item>University of Asia Pacific</item>
+    </array>
+</resources>

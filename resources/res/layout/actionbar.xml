@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.p003v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/toolbar" android:background="#ffff" android:layout_width="match_parent" android:layout_height="80dp" app:layout_collapseMode="1" app:layout_scrollFlags="5" app:popupTheme="@style/ThemeOverlay.AppCompat.ActionBar">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:id="@+id/toolbar_logo" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:src="@drawable/logo"/>
+    </FrameLayout>
+</android.support.p003v7.widget.Toolbar>
